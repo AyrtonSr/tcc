@@ -1,0 +1,165 @@
+[
+  {
+    "name": "resnet18_plateau_lr0.001_drop0.5_bs64",
+    "network": "resnet18",
+    "scheduler": "plateau",
+    "lr": "0.001",
+    "drop": "0.5",
+    "bs": "64",
+    "n_epochs": "100",
+    "early_stop": "true",
+    "transfer_learning": "true",
+    "tl_strategy": "full"
+  },
+  {
+    "name": "resnet18_plateau_lr0.001_drop0.6_bs32",
+    "network": "resnet18",
+    "scheduler": "plateau",
+    "lr": "0.001",
+    "drop": "0.6",
+    "bs": "32",
+    "n_epochs": "100",
+    "early_stop": "true",
+    "transfer_learning": "true",
+    "tl_strategy": "full"
+  },
+  {
+    "name": "resnet18_plateau_lr0.001_drop0.7_bs32",
+    "network": "resnet18",
+    "scheduler": "plateau",
+    "lr": "0.001",
+    "drop": "0.7",
+    "bs": "32",
+    "n_epochs": "100",
+    "early_stop": "true",
+    "transfer_learning": "true",
+    "tl_strategy": "full"
+  },
+
+  {
+    "name": "resnet18_cosine_lr0.001_drop0.6_bs32",
+    "network": "resnet18",
+    "scheduler": "cosine",
+    "lr": "0.001",
+    "drop": "0.6",
+    "bs": "32",
+    "n_epochs": "100",
+    "early_stop": "true",
+    "transfer_learning": "true",
+    "tl_strategy": "full"
+  },
+
+  {
+    "name": "resnet18_step_lr0.001_drop0.5_bs64",
+    "network": "resnet18",
+    "scheduler": "step",
+    "lr": "0.001",
+    "drop": "0.5",
+    "bs": "64",
+    "n_epochs": "100",
+    "early_stop": "true",
+    "transfer_learning": "true",
+    "tl_strategy": "full"
+  },
+  {
+    "name": "resnet18_step_lr0.001_drop0.6_bs64",
+    "network": "resnet18",
+    "scheduler": "step",
+    "lr": "0.001",
+    "drop": "0.6",
+    "bs": "64",
+    "n_epochs": "100",
+    "early_stop": "true",
+    "transfer_learning": "true",
+    "tl_strategy": "full"
+  },
+
+  {
+    "name": "resnet18_plateau_lr0.002_drop0.5_bs64",
+    "network": "resnet18",
+    "scheduler": "plateau",
+    "lr": "0.002",
+    "drop": "0.5",
+    "bs": "64",
+    "n_epochs": "100",
+    "early_stop": "true",
+    "transfer_learning": "true",
+    "tl_strategy": "full"
+  },
+  {
+    "name": "resnet18_plateau_lr0.002_drop0.6_bs32",
+    "network": "resnet18",
+    "scheduler": "plateau",
+    "lr": "0.002",
+    "drop": "0.6",
+    "bs": "32",
+    "n_epochs": "100",
+    "early_stop": "true",
+    "transfer_learning": "true",
+    "tl_strategy": "full"
+  },
+
+  {
+    "name": "resnet18_cosine_lr0.002_drop0.7_bs32",
+    "network": "resnet18",
+    "scheduler": "cosine",
+    "lr": "0.002",
+    "drop": "0.7",
+    "bs": "32",
+    "n_epochs": "100",
+    "early_stop": "true",
+    "transfer_learning": "true",
+    "tl_strategy": "full"
+  },
+
+  {
+    "name": "resnet18_step_lr0.002_drop0.5_bs64",
+    "network": "resnet18",
+    "scheduler": "step",
+    "lr": "0.002",
+    "drop": "0.5",
+    "bs": "64",
+    "n_epochs": "100",
+    "early_stop": "true",
+    "transfer_learning": "true",
+    "tl_strategy": "full"
+  },
+
+  {
+    "name": "resnet18_plateau_lr0.005_drop0.6_bs32",
+    "network": "resnet18",
+    "scheduler": "plateau",
+    "lr": "0.005",
+    "drop": "0.6",
+    "bs": "32",
+    "n_epochs": "100",
+    "early_stop": "true",
+    "transfer_learning": "true",
+    "tl_strategy": "full"
+  },
+
+  {
+    "name": "vgg_cosine_lr0.002_drop0.6_bs64",
+    "network": "vgg",
+    "scheduler": "cosine",
+    "lr": "0.002",
+    "drop": "0.6",
+    "bs": "64",
+    "n_epochs": "100",
+    "early_stop": "true",
+    "transfer_learning": "true",
+    "tl_strategy": "full"
+  },
+  {
+    "name": "vgg_cosine_lr0.005_drop0.7_bs64",
+    "network": "vgg",
+    "scheduler": "cosine",
+    "lr": "0.005",
+    "drop": "0.7",
+    "bs": "64",
+    "n_epochs": "100",
+    "early_stop": "true",
+    "transfer_learning": "true",
+    "tl_strategy": "full"
+  }
+]

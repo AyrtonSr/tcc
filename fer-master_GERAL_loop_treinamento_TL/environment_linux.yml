@@ -1,0 +1,18 @@
+name: fer
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.8
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - tqdm
+  - opencv
+  - pytorch
+  - torchvision
+  - scikit-learn  # (opcional)
+  - pip:
+      - opencv-python

@@ -1,0 +1,68 @@
+[
+  {
+    "name": "resnet18_base_quick",
+    "network": "resnet18",
+    "transfer_learning": "false",
+    "tl_strategy": "partial",
+    "lr": "0.02",
+    "bs": "64",
+    "drop": "0.2",
+    "n_epochs": "3",
+    "save_freq": "2"
+  },
+  {
+    "name": "resnet18_tl_partial_quick",
+    "network": "resnet18",
+    "transfer_learning": "true",
+    "tl_strategy": "partial",
+    "lr": "0.005",
+    "bs": "64",
+    "drop": "0.2",
+    "n_epochs": "3",
+    "save_freq": "2"
+  },
+  {
+    "name": "resnet18_tl_full_quick",
+    "network": "resnet18",
+    "transfer_learning": "true",
+    "tl_strategy": "full",
+    "lr": "0.001",
+    "bs": "64",
+    "drop": "0.2",
+    "n_epochs": "3",
+    "save_freq": "2"
+  },
+  {
+    "name": "vgg_base_quick",
+    "network": "vgg",
+    "transfer_learning": "false",
+    "tl_strategy": "partial",
+    "lr": "0.02",
+    "bs": "64",
+    "drop": "0.2",
+    "n_epochs": "3",
+    "save_freq": "2"
+  },
+  {
+    "name": "vgg_tl_partial_quick",
+    "network": "vgg",
+    "transfer_learning": "true",
+    "tl_strategy": "partial",
+    "lr": "0.005",
+    "bs": "64",
+    "drop": "0.2",
+    "n_epochs": "3",
+    "save_freq": "2"
+  },
+  {
+    "name": "vgg_tl_full_quick",
+    "network": "vgg",
+    "transfer_learning": "true",
+    "tl_strategy": "full",
+    "lr": "0.001",
+    "bs": "64",
+    "drop": "0.2",
+    "n_epochs": "3",
+    "save_freq": "2"
+  }
+]

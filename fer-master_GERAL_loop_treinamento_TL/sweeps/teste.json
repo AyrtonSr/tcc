@@ -1,0 +1,29 @@
+[
+  {
+    "network": "resnet18",
+    "bs": "64",
+    "lr": "0.02",
+    "drop": "0.5",
+    "n_epochs": "3",
+    "save_freq": "1",
+    "scheduler": "plateau"
+  },
+  {
+    "network": "resnet18",
+    "bs": "64",
+    "lr": "0.01",
+    "drop": "0.5",
+    "n_epochs": "3",
+    "save_freq": "1",
+    "scheduler": "plateau"
+  },
+  {
+    "network": "vgg",
+    "bs": "32",
+    "lr": "0.01",
+    "drop": "0.5",
+    "n_epochs": "3",
+    "save_freq": "1",
+    "scheduler": "plateau"
+  }
+]
