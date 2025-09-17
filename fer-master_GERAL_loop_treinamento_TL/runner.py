@@ -12,7 +12,7 @@ from utils.setup_network import setup_network
 DIR_RESULTADOS = os.path.join(os.getcwd(), "results")
 os.makedirs(DIR_RESULTADOS, exist_ok=True)
 
-# Ela serve para converter listas tipo ["lr=0.01", "drop=0.5"] em dicionários {"lr": "0.01", "drop": "0.5"}
+# Essa função serve para converter listas tipo ["lr=0.01", "drop=0.5"] em dicionários {"lr": "0.01", "drop": "0.5"}
 def converter_base_kv(kvs: List[str]) -> Dict[str, Any]:
     out: Dict[str, Any] = {}
     for kv in kvs or []:
@@ -203,3 +203,4 @@ if __name__ == "__main__":
     sys.stdout.reconfigure(line_buffering=True)
     sys.stderr.reconfigure(line_buffering=True)
     main()
+
